@@ -1,5 +1,5 @@
 FROM typesense/typesense:0.23.0
 
-RUN mkdir -p /typesense-data
+RUN mkdir /typesense-data
 
 EXPOSE 8108
